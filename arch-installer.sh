@@ -9,7 +9,7 @@ swapon /dev/sda2
 mkfs.ext4 /dev/sda3
 
 # Mount
-mount /dev/vda3 /mnt
+mount /dev/sda3 /mnt
 mkdir /mnt/boot
 mkdir /mnt/home
 mount /dev/sda1 /mnt/boot
